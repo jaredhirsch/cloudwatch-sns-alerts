@@ -1,0 +1,21 @@
+{
+  "topic": {
+    "name": "identity-alert"
+  },
+  "subscription": {
+    "endpoint": "foo@bar.com",
+    "protocol": "email"
+  },
+  "metricAlarmParams": {
+    "AlarmName": "5xx failsauce",
+    "MetricName": "HTTPCode_Backend_5XX",
+    "Namespace": "AWS/ELB",
+    "Period": 60,
+    "Statistic": "Sum",
+    "Unit": "Count",
+    "Threshold": 6,
+    "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+    "EvaluationPeriods": 1,
+    "ActionsEnabled": true
+  }
+}

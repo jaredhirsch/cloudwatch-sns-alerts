@@ -1,0 +1,32 @@
+{
+  "name": "cloudwatch-sns-alerts",
+  "version": "0.0.1",
+  "description": "Create an SNS topic, send CloudWatch alerts to it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/6a68/cloudwatch-sns-alerts.git"
+  },
+  "bugs": "https://github.com/6a68/cloudwatch-sns-alerts/issues",
+  "keywords": [
+    "aws",
+    "awssum",
+    "cloudwatch",
+    "sns",
+    "alerts",
+    "monitoring"
+  ],
+  "author": "Jared Hirsch <ohai@6a68.net>",
+  "license": "Apache 2",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "awssum": "~1.0.0-beta",
+    "awssum-amazon": "~1.0.2",
+    "awssum-amazon-sns": "~1.0.0",
+    "awssum-amazon-cloudwatch": "~1.0.0",
+    "get-iam-creds": "0.0.1"
+  }
+}
